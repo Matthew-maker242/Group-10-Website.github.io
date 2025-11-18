@@ -119,8 +119,9 @@ table th, table td {
   border: 2px solid #fff;
 }
 
+/* Swatch colors */
 .swatch.neon {
-  background-color: #ff00ff;
+  background: linear-gradient(90deg, #ff00ff, #00ffff);
 }
 
 /* Footer */

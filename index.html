@@ -59,27 +59,28 @@
 
       <h3>Promotional Materials</h3>
       <div class="upload-row">
-        <input id="imgUpload" type="file" accept="image/*">
-        <button id="previewBtn" class="btn">Preview Poster</button>
+        <input id="imgUpload" type="file" accept="image/*" multiple>
+        <button id="previewBtn" class="btn">Preview Posters</button>
       </div>
-      <div id="posterPreview" class="poster">
-        <img id="posterImg"
-             src="assets/Screenshot (12285).png"
-             alt="Main Promotional Poster">
+
+      <div id="posterPreview" class="poster-grid">
+        <img class="posterImg" src="assets/Screenshot (12285).png" alt="Poster 1">
+        <img class="posterImg" src="assets/Screenshot (12286).png" alt="Poster 2">
+        <img class="posterImg" src="assets/Screenshot (12287).png" alt="Poster 3">
       </div>
 
       <h3>Poster Grid</h3>
       <div class="posters-grid">
         <div class="poster-card">
-          <img src="assets/Screenshot (12285).png" alt="Poster 1">
+          <img src="assets/Screenshot (12286).png" alt="Poster 1">
           <p>Socials Poster</p>
         </div>
         <div class="poster-card">
-          <img src="assets/Screenshot (12286).png" alt="Poster 2">
+          <img src="assets/Screenshot (12287).png" alt="Poster 2">
           <p>Schedule Poster</p>
         </div>
         <div class="poster-card">
-          <img src="assets/Screenshot (12287).png" alt="Poster 3">
+          <img src="assets/Screenshot (12285).png" alt="Poster 3">
           <p>Key Message Poster</p>
         </div>
       </div>
@@ -99,7 +100,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>Made with ❤️ — RetroStream</p>
+    <p>Made by Group 10 — RetroStream</p>
   </footer>
 
 <script src="script.js"></script>

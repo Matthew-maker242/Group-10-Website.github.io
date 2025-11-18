@@ -1,0 +1,77 @@
+:root{
+  --bg:#08020b;
+  --neon-pink:#ff2f92;
+  --neon-cyan:#00e6ff;
+  --neon-yellow:#fff23b;
+  --card:#0f0912;
+  --muted:#b7c1c9;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  background: var(--bg);
+  color:#e9eef6;
+}
+.hero{
+  background:url('assets/hero_pixel_bg.png');
+  background-size:cover;
+  padding:48px 16px;
+  text-align:center;
+}
+.title{
+  font-family: 'Press Start 2P', monospace;
+  font-size:28px;
+  color:var(--neon-cyan);
+}
+.tagline{margin:8px 0 18px;color:var(--muted);}
+.cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
+.btn{
+  background:linear-gradient(90deg,var(--neon-pink),var(--neon-cyan));
+  padding:8px 14px;
+  border-radius:12px;
+  color:#07060a;
+  text-decoration:none;
+  font-weight:600;
+}
+.btn.ghost{
+  background:transparent;
+  border:1px solid rgba(255,255,255,0.1);
+  color:var(--neon-cyan);
+}
+.container{max-width:1000px;margin:22px auto;padding:0 16px;}
+.card{
+  background:#0f0912;
+  padding:18px;
+  border-radius:12px;
+  margin-bottom:18px;
+  box-shadow:0 4px 14px rgba(2,6,12,0.6);
+}
+.card-title{
+  font-family:'Press Start 2P';
+  font-size:12px;
+  color:var(--neon-pink);
+}
+.schedule{width:100%;border-collapse:collapse;font-size:13px}
+.schedule th,.schedule td{
+  padding:8px;
+  border-bottom:1px dashed rgba(255,255,255,0.1);
+}
+.poster img{max-width:320px;display:block}
+.posters-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:12px;
+  margin-top:12px;
+}
+.poster-card{
+  background:#120d17;
+  padding:8px;
+  border-radius:10px;
+  text-align:center;
+}
+.palette{display:flex;gap:8px;margin-top:8px}
+.swatch{width:64px;height:40px;border-radius:6px}
+.swatch.neon{background:linear-gradient(90deg,var(--neon-pink),var(--neon-cyan))}
+.swatch.sunset{background:linear-gradient(90deg,#7b1fa2,#ff8a00)}
+.swatch.console{background:linear-gradient(90deg,#3a3a3a,#8ccf7e)}

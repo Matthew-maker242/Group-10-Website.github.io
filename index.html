@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RetroStream — Relax & Enjoy Gaming</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1 class="title">RetroStream</h1>
+      <p class="tagline">Relax and enjoy gaming 🎮</p>
+      <div class="cta-row">
+        <a class="btn" href="#schedule">Stream Schedule</a>
+        <a class="btn ghost" href="#promo">Promotions</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Stream Schedule -->
+    <section id="schedule" class="card">
+      <h2 class="card-title">Stream Outline — Schedule</h2>
+      <div class="table-wrap">
+        <table class="schedule">
+          <thead>
+            <tr><th>Time</th><th>Topic</th><th>Activity</th><th>Time Allotment</th><th>Screen</th><th>Audio</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>4:00 - 4:05</td><td>Pre-Stream / Intro</td><td>Welcome viewers; play upbeat royalty-free music; explain today's game/topic.</td><td>5 mins</td><td>“Stream Starting Soon" graphic / Webcam</td><td>Music / Mic</td></tr>
+            <tr><td>4:05 - 4:20</td><td>Warm-up / Trending Talk</td><td>Start playing; discuss 1-2 trending topics; ask for opinions in chat.</td><td>15 mins</td><td>Gameplay / Webcam / Chat Overlay</td><td>Game Audio / Mic</td></tr>
+            <tr><td>4:20 - 4:50</td><td>Focused Gameplay & Strategy</td><td>Engage in objectives; explain moves and strategies.</td><td>30 mins</td><td>Gameplay / Webcam / Strategy Notes Overlay</td><td>Game Audio / Mic</td></tr>
+            <tr><td>4:50 - 5:05</td><td>Viewer Interaction / Q & A</td><td>Pause or low-focus; answer chat questions about game/goals/life.</td><td>15 mins</td><td>Webcam (full screen) / Chat Overlay</td><td>Mic (primary focus)</td></tr>
+            <tr><td>5:05 - 5:15</td><td>The Mid-Stream Break</td><td>Short break; show BRB screen with countdown.</td><td>10 mins</td><td>BRB Screen / Timer</td><td>Music (low volume)</td></tr>
+            <tr><td>5:15 - 5:45</td><td>Interactive Gameplay</td><td>Use viewer input (polls, votes).</td><td>30 mins</td><td>Gameplay / Webcam / Poll Overlay</td><td>Game Audio / Mic</td></tr>
+            <tr><td>5:45 - 5:55</td><td>Shoutouts & Positive Reflection</td><td>Give shoutouts; reflect on a positive/funny moment.</td><td>10 mins</td><td>Gameplay / Webcam / Shoutout Ticker</td><td>Game Audio / Mic</td></tr>
+            <tr><td>5:55 - 6:00</td><td>Wrap-up & CTA</td><td>Thank viewers; mention next stream time/date; share links.</td><td>5 mins</td><td>Webcam (full screen) / Link Overlay</td><td>Mic (primary focus)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Promotions -->
+    <section id="promo" class="card">
+      <h2 class="card-title">Promotional Outline</h2>
+      <p><strong>Objective:</strong> Get more viewers and a good audience engagement.</p>
+      <p><strong>Target Audience:</strong> Students and adults aged 12–30</p>
+      <p><strong>Key Message:</strong> “Relax and enjoy gaming”</p>
+      <h3>Promotional Activities</h3>
+      <ul class="promo-list">
+        <li>Poster about our social media platforms</li>
+        <li>Poster about our stream schedule</li>
+        <li>Poster about our key message</li>
+        <li>Poster about our giveaways</li>
+        <li>Poster about our communities</li>
+      </ul>
+
+      <h3>Promotional Materials</h3>
+      <div class="upload-row">
+        <input id="imgUpload" type="file" accept="image/*">
+        <button id="previewBtn" class="btn">Preview Poster</button>
+      </div>
+      <div id="posterPreview" class="poster">
+        <img id="posterImg"
+             src="https://drive.google.com/uc?export=view&id=1y5l2HM6s2YEQwEjPEvSoBO13-ecEoGC4"
+             alt="Main Promotional Poster">
+      </div>
+
+      <h3>Poster Grid</h3>
+      <div class="posters-grid">
+        <div class="poster-card">
+          <img src="https://drive.google.com/uc?export=view&id=1y5l2HM6s2YEQwEjPEvSoBO13-ecEoGC4" alt="Poster 1">
+          <p>Socials Poster</p>
+        </div>
+        <div class="poster-card">
+          <img src="https://drive.google.com/uc?export=view&id=16gW9rOfYOwXTQVVmwyQ6ZeUNjXchXE2a" alt="Poster 2">
+          <p>Schedule Poster</p>
+        </div>
+        <div class="poster-card">
+          <img src="https://drive.google.com/uc?export=view&id=1EAKrk3q9qHtOVejw8Q1riJFtlDS-4Sr8" alt="Poster 3">
+          <p>Key Message Poster</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Design / Theme -->
+    <section id="design" class="card">
+      <h2 class="card-title">Design & Theme</h2>
+      <p><strong>Theme:</strong> Retro 🎮</p>
+      <h3>Color Palette Ideas</h3>
+      <div class="palette">
+        <div class="swatch neon"></div>
+        <div class="swatch sunset"></div>
+        <div class="swatch console"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made with ❤️ — RetroStream</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

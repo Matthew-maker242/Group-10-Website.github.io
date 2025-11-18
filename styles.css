@@ -123,14 +123,6 @@ table th, table td {
   background-color: #ff00ff;
 }
 
-.swatch.sunset {
-  background-color: #ff7f50;
-}
-
-.swatch.console {
-  background-color: #00ff00;
-}
-
 /* Footer */
 .site-footer {
   text-align: center;
